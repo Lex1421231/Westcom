@@ -193,7 +193,7 @@ document.querySelector('.logo-link').addEventListener('click', function(event) {
                 defaults = {
                     star: {
                         color: 'rgb(255, 123, 0)',
-                        width: 1,
+                        width: 2,
                         randomWidth: true
                     },
                     line: {
