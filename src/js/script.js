@@ -192,12 +192,12 @@ document.querySelector('.logo-link').addEventListener('click', function(event) {
                 context = canvas.getContext('2d'),
                 defaults = {
                     star: {
-                        color: 'rgba(255, 255, 255, .9)',
+                        color: 'rgba(0, 0, 0, 0.9)',
                         width: 1,
                         randomWidth: true
                     },
                     line: {
-                        color: 'rgba(255, 255, 255, .9)',
+                        color: 'rgba(0, 0, 0, 0.9)',
                         width: 0.2
                     },
                     position: {
