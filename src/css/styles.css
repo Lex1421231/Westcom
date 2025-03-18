@@ -34,13 +34,13 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%; /* Занимает всю высоту экрана */
-    background: rgba(61, 61, 61, 0.5);
+    background: rgba(61, 61, 61);
     transition: background 0.4s ease-in-out;
     z-index: -1; /* Фон будет позади контента */
 }
 
 #stars:hover {
-    background: rgba(61, 61, 61, 0.5); /* Более насыщенный цвет при наведении */
+    background: rgba(61, 61, 61); /* Более насыщенный цвет при наведении */
 }
 
 @media (max-width: 768px) {
