@@ -29,6 +29,24 @@ h1 {
     transform: scale(1.2); /* Увеличение логотипа при наведении */
 }
 
+@keyframes heartbeat {
+    0% {
+        transform: scale(1); /* Начальный размер */
+    }
+    25% {
+        transform: scale(1.1); /* Увеличение */
+    }
+    50% {
+        transform: scale(1); /* Возврат к исходному размеру */
+    }
+    75% {
+        transform: scale(1.1); /* Увеличение */
+    }
+    100% {
+        transform: scale(1); /* Возврат к исходному размеру */
+    }
+}
+
 #stars {
     position: fixed; /* Фон будет фиксированным */
     top: 0;
